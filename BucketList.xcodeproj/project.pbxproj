@@ -11,6 +11,8 @@
 		52085CB72ABE919800EBE52E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52085CB62ABE919800EBE52E /* ContentView.swift */; };
 		52085CB92ABE919900EBE52E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52085CB82ABE919900EBE52E /* Assets.xcassets */; };
 		52085CBC2ABE919900EBE52E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52085CBB2ABE919900EBE52E /* Preview Assets.xcassets */; };
+		52085CC32ABECA0500EBE52E /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52085CC22ABECA0500EBE52E /* Location.swift */; };
+		52FABCA42ABF410600DCFD19 /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FABCA32ABF410600DCFD19 /* EditView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		52085CB62ABE919800EBE52E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		52085CB82ABE919900EBE52E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52085CBB2ABE919900EBE52E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		52085CC22ABECA0500EBE52E /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		52FABCA32ABF410600DCFD19 /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,8 +57,10 @@
 			children = (
 				52085CB42ABE919800EBE52E /* BucketListApp.swift */,
 				52085CB62ABE919800EBE52E /* ContentView.swift */,
+				52FABCA32ABF410600DCFD19 /* EditView.swift */,
 				52085CB82ABE919900EBE52E /* Assets.xcassets */,
 				52085CBA2ABE919900EBE52E /* Preview Content */,
+				52085CC22ABECA0500EBE52E /* Location.swift */,
 			);
 			path = BucketList;
 			sourceTree = "<group>";
@@ -138,6 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				52085CB72ABE919800EBE52E /* ContentView.swift in Sources */,
+				52085CC32ABECA0500EBE52E /* Location.swift in Sources */,
+				52FABCA42ABF410600DCFD19 /* EditView.swift in Sources */,
 				52085CB52ABE919800EBE52E /* BucketListApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
