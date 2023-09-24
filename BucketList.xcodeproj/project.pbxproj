@@ -12,6 +12,7 @@
 		52085CB92ABE919900EBE52E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52085CB82ABE919900EBE52E /* Assets.xcassets */; };
 		52085CBC2ABE919900EBE52E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52085CBB2ABE919900EBE52E /* Preview Assets.xcassets */; };
 		52085CC32ABECA0500EBE52E /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52085CC22ABECA0500EBE52E /* Location.swift */; };
+		5220ECCA2AC09275004506A6 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5220ECC92AC09275004506A6 /* Result.swift */; };
 		52FABCA42ABF410600DCFD19 /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FABCA32ABF410600DCFD19 /* EditView.swift */; };
 /* End PBXBuildFile section */
 
@@ -22,6 +23,7 @@
 		52085CB82ABE919900EBE52E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52085CBB2ABE919900EBE52E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		52085CC22ABECA0500EBE52E /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		5220ECC92AC09275004506A6 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
 		52FABCA32ABF410600DCFD19 /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -57,6 +59,7 @@
 			children = (
 				52085CB42ABE919800EBE52E /* BucketListApp.swift */,
 				52085CB62ABE919800EBE52E /* ContentView.swift */,
+				5220ECC92AC09275004506A6 /* Result.swift */,
 				52FABCA32ABF410600DCFD19 /* EditView.swift */,
 				52085CB82ABE919900EBE52E /* Assets.xcassets */,
 				52085CBA2ABE919900EBE52E /* Preview Content */,
@@ -144,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				52085CB72ABE919800EBE52E /* ContentView.swift in Sources */,
+				5220ECCA2AC09275004506A6 /* Result.swift in Sources */,
 				52085CC32ABECA0500EBE52E /* Location.swift in Sources */,
 				52FABCA42ABF410600DCFD19 /* EditView.swift in Sources */,
 				52085CB52ABE919800EBE52E /* BucketListApp.swift in Sources */,
